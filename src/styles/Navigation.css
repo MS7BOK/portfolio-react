@@ -1,0 +1,16 @@
+/* Navigation.css */
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+NavLink {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+NavLink.active {
+  font-weight: bold;
+}

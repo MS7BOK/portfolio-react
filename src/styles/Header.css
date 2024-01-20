@@ -1,0 +1,23 @@
+/* Header.css */
+header {
+  background-color: #343a40; /* Dark gray background */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.nav-link:hover {
+  background-color: #525b61; /* Slightly darker gray on hover */
+}
